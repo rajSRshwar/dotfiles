@@ -1,0 +1,32 @@
+ alias hs="history | grep"
+ 
+ alias zpr='git pr'
+
+ alias workinit="osascript ~/.dotfiles/AppleScripts/work_init.scpt"
+
+ alias soundon="osascript ~/.dotfiles/AppleScripts/sound_on.scpt"
+
+ alias togglemute="osascript ~/.dotfiles/AppleScripts/toggle_mute.scpt"
+
+ alias mute="osascript -e 'set volume with output muted'"
+
+ alias unmute="osascript -e 'set volume without output muted'"
+
+ # Moving around
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias .2='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+# Neovim
+# alias vi='nvim'
+# alias vim='nvim'
+# alias vir='nvim -R'
+alias vi='vim'
+
+# LSD
+alias ls='lsd'
